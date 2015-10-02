@@ -3,8 +3,8 @@ var src               = 'app',
     development       = 'build/dev',
     production        = 'build/prd',
     srcAssets         = 'app/assets',
-    developmentAssets = development + 'assets',
-    productionAssets  = production + 'assets';
+    developmentAssets = development + '/assets',
+    productionAssets  = production + '/assets';
 
 
 

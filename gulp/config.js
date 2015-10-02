@@ -15,6 +15,19 @@ module.exports = {
       src:  srcAssets + '/css/main.css',
       dest: developmentAssets + '/css/'
     }
+  },
+
+  postcss: {
+   cssnext: {
+    'browers':          ['last 2 version'],
+    'customProperties': true,
+    'colorFunction':    true,
+    'customSelectors':  true,
+    'sourcemap':        true,
+    'customProperties': true,
+    'compress':         false
+   }
   }
+
 
 }

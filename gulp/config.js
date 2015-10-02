@@ -12,7 +12,7 @@ module.exports = {
 
   css: {
     dev: {
-      src:  srcAssets + '/css/',
+      src:  srcAssets + '/css/main.css',
       dest: developmentAssets + '/css/'
     }
   }

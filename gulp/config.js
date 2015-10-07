@@ -18,14 +18,14 @@ module.exports = {
   },
 
   postcss: {
+   options: {
+     map: true
+   },
    cssnext: {
-    'browers':          ['last 2 version'],
-    'customProperties': true,
-    'colorFunction':    true,
-    'customSelectors':  true,
-    'sourcemap':        true,
-    'customProperties': true,
-    'compress':         false
+     features: {
+       customProperties: true,
+       autoprefixer: true
+     } 
    }
   }
 

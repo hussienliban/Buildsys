@@ -23,6 +23,7 @@
     "postcss-media-variables": "^1.1.2",
     "postcss-mixins": "^1.0.1",
     "postcss-nested": "^1.0.0",
+    "postcss-reporter": "^1.2.1",
     "postcss-vertical-rhythm": "^1.1.2",
     "postcss-will-change": "^1.0.0",
     "ramda": "^0.17.1",

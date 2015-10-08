@@ -26,7 +26,18 @@ module.exports = {
        customProperties: true,
        autoprefixer: true
      } 
-   }
+   },
+   stylelint: {
+     "rules": {
+       "indentation": [2, "tab", { except: ["value"] }],
+       "declaration-colon-space-before": [2, "never"],
+       "number-leading-zero": [2, "always"],
+     }
+   },
+   reporter: {
+    clearMessages: true,
+   } 
+
   }
 
 

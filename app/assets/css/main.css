@@ -1,5 +1,6 @@
-@import 'vars.css';
-@import 'customSelectors.css';
+@import 'configs/vars.css';
+@import 'configs/media-queries.css';
+@import 'configs/custom-selectors.css';
 
 
 :--heading { margin-top: 0 }
@@ -8,4 +9,12 @@ body {
   background-color: var(--mainColor);
   transform: scale(2);
   filter: blur(2px);
+
+  @media (--small-viewport) {
+    background: blue;
+  }
+}
+
+p:not(:first-child, .special) {
+  color: red;
 }

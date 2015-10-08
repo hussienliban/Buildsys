@@ -17,7 +17,7 @@ var postcssPlugins = {
 var processors = [
     atImport,
     cssnext(merge(postcssPlugins, pcConfig.cssnext)),
-    cssnano,
+    //cssnano,
 ];
 
 gulp.task('css:dev', function(){
